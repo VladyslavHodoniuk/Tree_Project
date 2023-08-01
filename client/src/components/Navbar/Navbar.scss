@@ -1,0 +1,25 @@
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .navbar-wrapper_item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    span {
+      padding: 1.5rem 0 1.5rem 0;
+      margin: 0 auto;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+
+    li {
+      list-style: none;
+    }
+  }
+}
